@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class OtherActivity extends Activity {
@@ -12,6 +14,9 @@ public class OtherActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
+        String txt = getIntent().getStringExtra("text");
+        TextView tv = (TextView)findViewById(R.id.tv1);
+        tv.setText(txt);
     }
 
 

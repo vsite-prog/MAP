@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 
@@ -63,6 +64,9 @@ public class MainActivity extends Activity implements OnClickListener{
 
     public void otvoriNovu(View v){
         Intent intent = new Intent(this, OtherActivity.class);
+        EditText et = (EditText)findViewById(R.id.editText2);
+        String txt = et.getText().toString();
+        intent.putExtra("text", txt );
         startActivity(intent);
     }
 }
