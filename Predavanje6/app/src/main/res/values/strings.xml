@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Predavanje6</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_frag1">Ovo je prvi fragment</string>
+    <string name="hello_frag2">Ovo je drugi fragment</string>
+    <string name="butt_frag2">Klikni</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.vsite.predavanje6.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvf1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_frag1"
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/butt_frag2"
+        android:onClick="onClick"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+</RelativeLayout>
