@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Predavanje 7</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Setting</string>
+    <string name="hello_fragment">Setting</string>
+    <string-array name="gradovi">
+        <item>Zagreb</item>
+        <item>Trst</item>
+        <item>Beč</item>
+    </string-array>
+
+</resources>
