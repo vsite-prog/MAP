@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Predavanje10</string>
+    <string name="laptop_naziv">Laptop naziv:</string>
+    <string name="laptop_tip">Laptop tip:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
