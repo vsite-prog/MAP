@@ -16,6 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
+    //Kod kojim ćemo prepoznati odgovor iz aktivnosti
+    public static final int THIRD_ACTIVITY_CODE = 223;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,19 +37,48 @@ public class MainActivity extends Activity implements OnClickListener {
         b.setOnClickListener(listener);
 
     }
-
+/*
     public void onClick(View v){
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
         //Toast.makeText(this, getResources().getString( R.string.butt2), Toast.LENGTH_LONG).show();
     }
+    */
 
+    public void otvoriMe(View v){
+        Intent in = new Intent(this, ThirdActivity.class);
+        int broj = 15; //NIje pametno ali hoćemo poslati u drugu aplikaciju
+        //Dodaj podatak u intent
+        in.putExtra("broj", broj);
+        startActivityForResult(in, THIRD_ACTIVITY_CODE );
+    }
 
-    public void OnClick(View v){
+    public void onClick(View v){
+        //Želimo otvoriti drugu aktivnost
+        Intent in = new Intent(this, ThirdActivity.class);
+        int broj = 15; //NIje pametno ali hoćemo poslati u drugu aplikaciju
+        //Dodaj podatak u intent
+        in.putExtra("broj", broj);
+        startActivityForResult(in, THIRD_ACTIVITY_CODE );
+
+        /*
         EditText et = (EditText)findViewById(R.id.editText);
         //String txt = et.getText().toString();
         TextView tv = (TextView)findViewById(R.id.textView);
         tv.setText(et.getText());
+        */
     }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    // If the request went well (OK) and the request was THIRD_ACTIVITY_CODE   
+        if (resultCode == Activity.RESULT_OK && requestCode == THIRD_ACTIVITY_CODE) {
+            int broj = data.getIntExtra("broj",0);
+            Toast
+                    .makeText(this, String.valueOf(broj), Toast.LENGTH_LONG )
+                    .show();
+        }
+    }
+
 
 }

@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="map.vsite.hr.predavanje2.MainActivity" />
         </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:label="@string/title_activity_third"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="map.vsite.hr.predavanje2.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
