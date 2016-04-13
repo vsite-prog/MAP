@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Predavanje 7</string>
+    <string name="hello">POzdrav iz aktivnosti!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Promijeni fragment</string>
+    <array name="planete">
+        <item>Merkur</item>
+        <item>Venera</item>
+        <item>Zemlja</item>
+    </array>
+</resources>
