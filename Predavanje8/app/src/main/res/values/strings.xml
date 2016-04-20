@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Predavanje 8</string>
+    <string name="action_nesto">Odaberi vrijeme</string>
+    <string name="action_nista">Ništa ništa</string>
+    <string name="action_traka">Traka</string>
+    <string name="action_cut">Reži</string>
+    <string name="action_paste">Lijepi</string>
+</resources>

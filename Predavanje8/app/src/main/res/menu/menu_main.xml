@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hr.vsite.map.predavanje8.MainActivity">
+    <item
+        android:id="@+id/action_nesto"
+        android:orderInCategory="2"
+        android:title="@string/action_nesto"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_nista"
+        android:orderInCategory="1"
+        android:title="@string/action_nista"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_traka"
+        android:title="@string/action_traka"
+        app:showAsAction="ifRoom"
+        />
+</menu>
