@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 9</string>
+    <string name="b_save">Spremi</string>
+    <string name="b_citaj">Čitaj</string>
+    <string name="b_save_file">Spremi u file</string>
+    <string name="b_citaj_file">Čitaj file</string>
+</resources>
