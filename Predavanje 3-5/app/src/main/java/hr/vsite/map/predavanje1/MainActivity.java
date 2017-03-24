@@ -1,6 +1,7 @@
 package hr.vsite.map.predavanje1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,6 +34,10 @@ public class MainActivity extends Activity implements  OnClickListener{
         //Dohvati b3
         Button b3 = (Button)findViewById(R.id.button3);
         b3.setOnClickListener(this);
+
+        //Dohvati b4
+        Button b4 = (Button)findViewById(R.id.button4);
+        b4.setOnClickListener(this);
     }
 
 
@@ -44,12 +49,23 @@ public class MainActivity extends Activity implements  OnClickListener{
 
     @Override
     public void onClick(View v) {
-        //Dohvati ono što je korisnik napisao
-        EditText et = (EditText) findViewById(R.id.editText);
-        String txt = et.getText().toString();
-        //Sad dohvati view u koji ćeš to upisati
-        TextView tv = (TextView)findViewById(R.id.textView);
-        //Piši
-        tv.setText(txt);
+        //vidi koji je button u pitanju i nešto napravi
+        if(v.getId() == R.id.button3){
+            //Dohvati ono što je korisnik napisao
+            EditText et = (EditText) findViewById(R.id.editText);
+            String txt = et.getText().toString();
+            //Sad dohvati view u koji ćeš to upisati
+            TextView tv = (TextView)findViewById(R.id.textView);
+            //Piši
+            tv.setText(txt);
+        } else {
+            //Namjera nam je otvoriti drugu aktivnost
+            Intent intent = new Intent(this, SecondActivity.class); //explicitno
+            //Pošalji neki podatak u drugu aktivnost
+            intent.putExtra("txt","Pozdrav iz prve aktivnosti");
+            startActivity(intent); //sada pokreni drugu
+
+        }
+
     }
 }

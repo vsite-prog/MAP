@@ -3,4 +3,6 @@
     <string name="butt1_name">Klikaj</string>
     <string name="butt2_name">Drugi</string>
     <string name="butt3_name">Treći</string>
+    <string name="txt1">Druga aktivnost</string>
+    <string name="butt4_name">Druga aktivnost</string>
 </resources>
