@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Predavanje 7</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello from our first fragment</string>
+    <string name="hello_fragment2">Hello from our second, more simple fragment</string>
+    <string name="button">Zamijeni fragment</string>
+    <string name="button2">Prikaži toast</string>
+
+    <string name="toastText">JPozdrav iz drugog fragmenta</string>
+</resources>
