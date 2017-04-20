@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Predavanje 8</string>
+    <string name="spinner_label">Odaberi ljubimca:</string>
+    <string name="button_text">Odaberi datum</string>
+    <string-array name="ljubimci">
+        <item>Pas</item>
+        <item>Mačka</item>
+        <item>Konj</item>
+        <item>Piton</item>
+    </string-array>
+</resources>
