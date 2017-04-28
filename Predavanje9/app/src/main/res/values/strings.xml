@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Predavanje 9</string>
+    <string name="action1">KLinkni</string>
+    <string name="action2">KLinkni me opnt</string>
+    <string name="action3">I opet</string>
+    <string name="context_action1">Zbroji</string>
+    <string name="context_action2">Prikaži zbroj</string>
+    <string name="unesi">Unesi broj:</string>
+</resources>
