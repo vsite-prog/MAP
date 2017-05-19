@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Predavanje 11</string>
+    <string name="ime">Ime:</string>
+    <string name="vrsta">Vrsta:</string>
+    <string name="spremi">Spremi pticu</string>
+    <string name="citaj">Čitaj ptice</string>
+
+</resources>
