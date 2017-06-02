@@ -53,12 +53,12 @@ public class DownloadService extends IntentService {
                 }
                 //Kreiramo pending intent za naš download
                 //Ako je sve OK imamomo file
-                Intent intentActivity = new Intent(getBaseContext(), MainActivity.class);
+                Intent intentActivity = new Intent(this, MainActivity.class);
                 intentActivity.putExtra("stranica", sb.toString());
                 intentActivity.setAction(ACTION_DOWNLOAD);
-                PendingIntent pendingIntent = PendingIntent.getActivity(getBaseContext(),12, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent pendingIntent = PendingIntent.getActivity(this,12, intent, PendingIntent.FLAG_UPDATE_CURRENT);
                 //sada idemo napraviti obavijest
-                NotificationCompat.Builder builder = new NotificationCompat.Builder(getBaseContext());
+                NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
                 //Stavi sve komponente i idemo
                 builder
                         .setContentTitle("Download")
