@@ -27,7 +27,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Olabavi malo sigurnonosnu politiku
+        //Olabavi malo sigurnonosnu politiku, potrebno za Android 6.+
+        //Potrebno je za Android 6+ i ručno dati dozvole za Storage u App/settings
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
     }
