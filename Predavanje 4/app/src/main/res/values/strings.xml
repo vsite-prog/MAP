@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Predavanje 4</string>
+    <string name="text1">Unesi neki tekst:</string>
+    <string name="bt1">Pritiskaj</string>
+</resources>
