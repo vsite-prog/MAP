@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 5</string>
+    <string name="tv1">Unesi tekst:</string>
+    <string name="b1">Toastaj</string>
+    <string name="b3">Druga aktivnost</string>
+    <string name="toast1">POzdrav iz slušača!</string>
+</resources>
