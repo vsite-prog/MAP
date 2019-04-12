@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Predavanje 7</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_frag1">Hello iz prvog fragmenta!</string>
+    <string name="bt1">Dugme pritisni</string>
+    <string name="bt_add">Dodaj fragment</string>
+    <string name="bt_replace">Promijeni fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello iz drugoga fragmennta!</string>
+</resources>
