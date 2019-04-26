@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Predavanje 8</string>
+    <string name="predmet">Odaberi predmet:</string>
+    <string name="button">Odaberi datum</string>
+    <string-array name="svi_predmeti">
+        <item>MAP</item>
+        <item>UPROG</item>
+        <item>PMA</item>
+        <item>SPA</item>
+    </string-array>
+
+</resources>
