@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Predavanje 9</string>
+    <string name="menu_item1">Pročitaj spremljeno</string>
+    <string name="menu_item2">Odabir 2</string>
+    <string name="menu_item3">Odabir 3</string>
+    <string name="context_item1">Long click 1</string>
+    <string name="context_item2">Long click 2</string>
+    <string name="context_item3">Long click 3</string>
+    <string name="button">Spremi tekst</string>
+</resources>
