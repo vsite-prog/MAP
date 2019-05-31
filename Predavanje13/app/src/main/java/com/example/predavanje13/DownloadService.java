@@ -19,14 +19,6 @@ import java.net.URL;
  * helper methods.
  */
 public class DownloadService extends IntentService {
-    // TODO: Rename actions, choose action names that describe tasks that this
-    // IntentService can perform, e.g. ACTION_FETCH_NEW_ITEMS
-    private static final String ACTION_FOO = "com.example.predavanje13.action.FOO";
-    private static final String ACTION_BAZ = "com.example.predavanje13.action.BAZ";
-
-    // TODO: Rename parameters
-    private static final String EXTRA_PARAM1 = "com.example.predavanje13.extra.PARAM1";
-    private static final String EXTRA_PARAM2 = "com.example.predavanje13.extra.PARAM2";
 
     public DownloadService() {
         super("DownloadService");
@@ -72,21 +64,4 @@ public class DownloadService extends IntentService {
         }
     }
 
-    /**
-     * Handle action Foo in the provided background thread with the provided
-     * parameters.
-     */
-    private void handleActionFoo(String param1, String param2) {
-        // TODO: Handle action Foo
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
-
-    /**
-     * Handle action Baz in the provided background thread with the provided
-     * parameters.
-     */
-    private void handleActionBaz(String param1, String param2) {
-        // TODO: Handle action Baz
-        throw new UnsupportedOperationException("Not yet implemented");
-    }
 }
