@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Predavanje 13</string>
+    <string name="channel_name">Download</string>
+    <string name="channel_description">Notif iz download servis</string>
+</resources>
