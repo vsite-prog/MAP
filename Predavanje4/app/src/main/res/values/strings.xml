@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Predavanje 4</string>
+    <string name="tekst_ime">Unesi tekst</string>
+    <string name="dugme_ime">Prikaži poruku s unosom</string>
+    <string name="toast_ime">Hvala na kliku!</string>
+</resources>
