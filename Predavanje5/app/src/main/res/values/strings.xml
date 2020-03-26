@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Predavanje 5</string>
+    <string name="poruka">Pozdrav svijete!</string>
+    <string name="dugme_tekst">Klikni</string>
+</resources>
