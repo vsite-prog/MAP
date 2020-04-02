@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 6</string>
+    <string name="dugme1">Otvori drugu aktivnost</string>
+    <string name="dugme2">Otvori drugu aktivnost - traži rezultat</string>
+    <string name="dugme1_zatvori">Zatvori drugu aktivnost</string>
+
+</resources>
