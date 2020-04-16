@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Predavanje 7</string>
+    <string name="dugme1">Otvori drugu aktivnost</string>
+    <string name="dugme2">Vrati se nazad</string>
+    <string name="dugme_fragment">Promijeni fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drugi_fragment">Pozdrav iz drugog fragmenta</string>
+</resources>
