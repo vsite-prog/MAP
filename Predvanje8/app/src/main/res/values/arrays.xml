@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="virusi">
+        <item>Covid</item>
+        <item>SARS</item>
+        <item>Ebola</item>
+        <item>HIV</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Predvanje 8</string>
+    <string name="spinner_label">Odaberi virus:</string>
+    <string name="dugme_otvori"> Otvori odabir datuma</string>
+</resources>
