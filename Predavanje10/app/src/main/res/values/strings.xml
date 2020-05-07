@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Predavanje 10</string>
+    <string name="tv_unos">Unesi neki tekst:</string>
+    <string name="bt_unos">Spremi u file</string>
+    <string name="bt_citac">Čitaj iz file-a</string>
+</resources>
