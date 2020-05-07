@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 9</string>
+    <string name="prvi_izbor">Prvi</string>
+    <string name="drugi_izbor">Drugi izbor</string>
+    <string name="treci_izbor">Treći izbor</string>
+    <string name="context_izbor">Kontekstualni izbor</string>
+</resources>
