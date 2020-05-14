@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 11</string>
+    <string name="tv_virus">Naziv virusa:</string>
+    <string name="tv_broj">Broj zaraženih:</string>
+    <string name="bt_spremi">Spremi u bazu</string>
+    <string name="bt_citaj">Čitaj iz baze</string>
+</resources>
