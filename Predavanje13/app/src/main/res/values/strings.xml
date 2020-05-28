@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 13</string>
+    <string name="tv_adresa">Unesi adresu:</string>
+    <string name="bt_idi">Otvori stranicu</string>
+    <string name="channel_name">Download</string>
+    <string name="channel_description">Download service</string>
+</resources>
