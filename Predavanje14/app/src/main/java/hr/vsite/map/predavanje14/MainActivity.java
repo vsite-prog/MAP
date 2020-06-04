@@ -24,16 +24,20 @@ import java.util.Date;
 public class MainActivity extends AppCompatActivity {
     final static int ACTION_CAMERA = 13;
     final static String APP_TAG = "MAP";
-    File nasa_slika = null;
+    Uri photoURI = null;
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if (requestCode == ACTION_CAMERA){
             if(resultCode==RESULT_OK){
+                ImageView iv = findViewById(R.id.imageView);
+                /*
                 Bundle vraceno = data.getExtras(); // Ovdje bi trebala biti negdje slika
                 Bitmap thumbnail = (Bitmap) vraceno.get("data");
-                ImageView iv = findViewById(R.id.imageView);
                 iv.setImageBitmap(thumbnail);
+                */
+                iv.setImageURI(photoURI);
+
             } else { // RESULT CANCELED
                 Log.i(APP_TAG, "Odustao kor od slikanja!");
             }
@@ -57,11 +61,11 @@ public class MainActivity extends AppCompatActivity {
             Intent  intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             if (intent.resolveActivity(pm) != null){
                 try {
-                    nasa_slika = createImageFile();
-                    Uri photoURI = FileProvider.getUriForFile(this,
-                            "com.example.android.fileprovider",
+                    File nasa_slika = createImageFile();
+                    photoURI = FileProvider.getUriForFile(this,
+                            "hr.vsite.map.predavanje14.fileprovider",
                             nasa_slika);
-                    intent.putExtra(MediaStore.EXTRA_OUTPUT, )
+                    intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                     startActivityForResult(intent, ACTION_CAMERA);
                 } catch (IOException e) {
                     e.printStackTrace();
