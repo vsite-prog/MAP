@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Predavanje 4</string>
+    <string name="dugme_labela">Molim da me se klikne</string>
+    <string name="dugme_tekst">Hvala Vam što ste me kliknuli!</string>
+    <string name="unos">Molim unesite tekst:</string>
+</resources>
