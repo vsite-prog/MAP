@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Predavanje 5</string>
+    <string name="tv_name">Pozdrav MAP!</string>
+    <string name="tv_name2">Druga aktivnost!</string>
+    <string name="poruka">Pozdrav iz slušača - Aktivnosti!</string>
+    <string name="butt_name">Otvori drugu aktivnost</string>
+</resources>
