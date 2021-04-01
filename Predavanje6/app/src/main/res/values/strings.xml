@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Predavanje 6</string>
+    <string name="butt_name">Odi u drugu aktivnost</string>
+    <string name="butt2_name">Odi u drugu aktivnost i vrati nešto</string>
+    <string name="butt3_name">Vrati se u prvu aktivnost i vrati nešto</string>
+    <string name="poruka1">Pozdrav iz 1. dugmeta i 1. aktivnosti!</string>
+    <string name="poruka2">Pozdrav iz 2. dugmeta i 1. aktivnosti!</string>
+</resources>
