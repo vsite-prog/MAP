@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Predavanje 7</string>
+    <string name="butt_text">Druga aktivnost</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello from first fragment!</string>
+</resources>

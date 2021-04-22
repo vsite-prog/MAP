@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Predavanje 8</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dugme">Postavi fragmente</string>
+    <string name="dugme_fragment">Postavi poruku</string>
+    <string name="poruka_fragment2">POzdrav iz fragmenta 2</string>
+    <string-array name="predmeti">
+        <item>MAP</item>
+        <item>DOTN</item>
+        <item>UPROG</item>
+    </string-array>
+</resources>
