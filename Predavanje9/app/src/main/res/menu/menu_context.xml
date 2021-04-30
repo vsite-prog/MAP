@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Kontekst Opcija 1"  android:id="@+id/kopcija1" />
+    <item android:title="Kontekst Opcija 2" android:id="@+id/kopcija2" />
+    <item android:title="Izađi opet" android:id="@+id/kvani" />
+</menu>

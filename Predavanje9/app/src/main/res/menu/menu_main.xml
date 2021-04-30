@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Čitaj iz SP"  app:showAsAction="ifRoom" android:id="@+id/opcija1" />
+    <item android:title="Opcija 2" android:id="@+id/opcija2" />
+    <item android:title="Izađi" android:id="@+id/vani" />
+</menu>
