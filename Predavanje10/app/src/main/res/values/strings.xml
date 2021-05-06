@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Predavanje 10</string>
+    <string name="name_bt1">Spremi</string>
+    <string name="name_bt2">Čitaj</string>
+    <string name="name_tv">Tekst za spremanje:</string>
+</resources>
